@@ -1,0 +1,45 @@
+.container {
+    height: 100vh;
+    background-color: #ddd;
+    width: 100%;
+    padding: 20px;
+}
+
+.date-container {
+    margin: 0 auto;
+    background-color: #fff;
+    height: 500px;
+    width: 500px;
+    padding-top:40px;
+}
+
+.input-box {
+    display: none;    
+}
+
+.input-box-container {
+    display: flex;
+    justify-content: center;
+}
+
+.horizontal-conatainer {
+    overflow: scroll;
+    /* height: 200px; */
+    /* width: 100%; */
+    background-color: orangered;    
+    display: flex;
+    transition: all .2s;
+}
+
+.horizontal-conatainer::-webkit-scrollbar {
+    /* display: none; */
+}
+
+.sm {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    flex-shrink: 0;
+
+    background-color: palegreen;
+}
